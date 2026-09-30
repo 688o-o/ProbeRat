@@ -1,0 +1,44 @@
+.env
+# ============ Python ============
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ============ 虚拟环境 ============
+.venv/
+venv/
+env/
+ENV/
+
+# ============ IDE ============
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============ 环境变量（敏感）============
+.env
+.env.local
+.env.*.local
+# 注意：.env.example 应该被提交，不要在这里忽略它
+
+# ============ 测试音频（体积大）============
+test.wav
+tests/test/
+app/stress/audio/
+
+# ============ 压测输出（可重跑）============
+report/reports/
+report/reports_weaknet/
+
+# ============ 监控输出（可重跑）============
+gpu_metrics.csv
+system_metrics.csv
+
+# ============ 系统 ============
+.DS_Store
+Thumbs.db
+desktop.ini
