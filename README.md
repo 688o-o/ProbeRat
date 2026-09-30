@@ -158,3 +158,5 @@ mitmdump -s security/mitmproxy/delay.py
 v1.1.0 — Docker 化完成
 
 v1.0.0 — 核心能力（FastAPI + Locust + Monitor + mitmproxy + Report）
+
+## 📄 License - MIT
